@@ -13,10 +13,15 @@ This project presents a comprehensive, interactive **Online Retail Analysis Dash
 
 ## 🛠️ Cleaning Workflow
 Removed duplicates.
+
 Handled missing country values.
+
 Standardized text fields.
+
 Converted Date Added to proper date format.
+
 Checked release year consistency.
+
 Removed unnecessary spaces and formatting issues.
 
 ---

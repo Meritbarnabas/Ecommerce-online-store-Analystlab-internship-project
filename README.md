@@ -11,12 +11,13 @@ This project presents a comprehensive, interactive **Online Retail Analysis Dash
 
 ---
 
-## 🛠️ Data Architecture & Cleaning Workflow
-Before designing the visuals, a rigorous data cleaning process was executed to ensure data integrity:
-1. **Handling Missing Values:** Addressed null values within critical fields (e.g., CustomerID, Description) to avoid skewed metrics. Unidentified regions were categorized as "Unspecified".
-2. **Data Transformation:** * Extracted `Month` and `Year` from the raw `InvoiceDate` to build the chronological trend analysis.
-   * Standardized product descriptions to title casing for clean visualization labels.
-3. **Outlier & Consistency Checks:** Filtered out negative quantities and prices representing returns or cancellations to reflect true gross revenue performance.
+## 🛠️ Cleaning Workflow
+Removed duplicates.
+Handled missing country values.
+Standardized text fields.
+Converted Date Added to proper date format.
+Checked release year consistency.
+Removed unnecessary spaces and formatting issues.
 
 ---
 
@@ -30,5 +31,5 @@ Before designing the visuals, a rigorous data cleaning process was executed to e
 ---
 
 ## 💻 Tech Stack
-* **Business Intelligence Tool:** Power BI / Excel (Specify your tool here)
+* **Business Intelligence Tool:** Power BI / SQL
 * **Data Transformation:** Power Query / DAX
